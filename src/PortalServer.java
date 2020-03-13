@@ -217,6 +217,7 @@ public class PortalServer {
             os.write(bytes);
             os.close();
         });
+
         
         server.setExecutor(null); // creates a default executor
     }
